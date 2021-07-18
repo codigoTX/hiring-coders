@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.section-container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/images/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.form-content{
+  width: 300px; 
+  margin: auto; 
+  color: #DA990B;
+  text-align: center;
+}
+
+#content{
+  color:#DA990B;
+  margin: auto;
+}
+
+input{
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 12px;
+  background: #000;
+  color: #FFF;
+}
+
+.button{
+  background-color:#DA990B;
+}
+
+.logo{
+  height: 60%;
+  margin: auto;
+}
